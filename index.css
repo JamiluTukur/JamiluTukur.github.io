@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    position: fixed;
+    width: 100%;
+    
+}
+/* top nav */
+header .nav-top{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    /* position: fixed; */
+    
+}
+header .nav-top ul{
+    display: flex;
+    margin: 0px 0px 0px 1130px;
+    
+
+}
+header .nav-top ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px 0px 10px;
+
+}
+header .nav-top ul li a{
+    color: white;
+    gap: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+/* top nav end */
+/* buttom nav */
+
+.nav-buttom{
+    height: 60px;
+    width: 100%;
+    /* position: fixed; */
+    background-color: white;
+    display: flex;
+    
+    
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin: 5px 0px 0px 100px;
+    
+}
+.nav-buttom .buttom-nav-links ul{
+    display: flex;
+    margin: 0px 0px 0px 600px;
+    margin-top: 5px;
+    
+}
+.nav-buttom .buttom-nav-links ul li{
+    list-style: none;
+    text-decoration: none;    
+    padding: 10px;
+}
+.nav-buttom .buttom-nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.nav-buttom .buttom-nav-links button{
+    padding: 5px;
+    margin-bottom: px;
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+.buttom-nav-links ul li:hover a{
+    color: red;
+    
+}
+.buttom-nav-links ul li:hover button{
+    color: white;
+    background-color: black;
+    
+}
+/* end of navigation bar */
+/* hero area start */
+
+.hero-backgroung-container{
+    height: 650px;
+    width: 100%;
+    background-image: url(header-picture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* MAIN PROGRAM SECTION */
+.main-program-container{
+    height: 350px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.879);
+}
+.main-progrme-line{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+
+}
+.main-program-pharagraph, .welcome-program-paragraph{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px;
+
+}
+.main-program-images{
+    margin: 20px 0px 0px 100px;
+}
+.main-program-images img{
+    height: 160px;
+    
+}
+.welcome-program-paragraph a{
+    color: white;
+}
+/* key speakers section */
+.key-speakers{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 15px;
+}
+.key-speaker-underline, .partners-underline{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    
+    
+
+}
+.key-speakers-main-container{
+    height: 770px;
+    width: 100%;
+    
+    margin: 0px 0px 0px 100px;
+}
+.key-speakers-main-container-first, .key-speakers-main-container-second, .key-speakers-main-container-third{
+    display: flex;
+    margin-top: 70px;
+
+}
+.key-speakers-main-container-first-left, .key-speakers-main-container-second-left, .key-speakers-main-container-third-left{
+    width: 40%;
+    display: flex;
+    /* padding: 10px; */
+}
+.key-speakers-main-container-first-right, .key-speakers-main-container-second-right, .key-speakers-main-container-third-right{
+    width: 40%;
+    display: flex;
+    /* padding: 10px; */
+}
+.key-speakers-main-container-first-left-text, .key-speakers-main-container-first-right-text, .key-speakers-main-container-second-left-text, .key-speakers-main-container-second-right-text, .key-speakers-main-container-third-left-text, .key-speakers-main-container-third-right-text{
+    margin-top: 35px;
+}
+
+/* footer section */
+footer{
+    height: 300px;
+    width: 100%;
+    
+}
+.footer-top{
+    height: 140px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.742);
+}
+.partners{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+.partners-image{
+    margin: 0px 0px 0px 350px;
+}
+.footer-buttom{
+    display: flex;
+    height: 150px;
+}
+.partners-image img{
+    height: 40px;
+
+}
+.footer-buttom-image{
+    margin: 50px 0px 0px 400px;
+}
+.copy-right{
+    font-size: 20px;
+    margin: 80px;
+}
+h2{
+    color: rgba(0, 0, 0, 0.387);
+}
+h3{
+    font-weight: 600;
+    font-size: 23px;
+}
+h4{
+    color: red;
+}
+
+
+
+
